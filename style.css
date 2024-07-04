@@ -43,7 +43,7 @@ body {
 
 .container {
     background-color: #9e7b7b;
-    width: 26%;
+    width: 359px;
     border: 2px solid black;
     border-radius: 12px;
 }
@@ -51,13 +51,13 @@ body {
 .text-center {
   text-align: center;
   background-color: #5378e1;
-  width: 26%;
+  width: 359px;
   color: white;
   border: 2px solid black;
   border-radius: 7px;
   margin:3px auto;
   height: 61px;
-  padding-top: 17px;
+  padding-block: 18px;
   justify-content: center;
   align-items: center;
 }
@@ -82,9 +82,10 @@ align-items: center;
 
 @media (max-width:1170px){
   .text-center {
-    width:56%;
+    width:359px;
     font-size: 28px;
     height: 61px;
+    padding: 3px;
     padding-top: 17px;
   }
   
